@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/about.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Medlock</h1>
+              <span class="subheading">This is what we do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p class="lead">The healthcare industry is one of the world's largest and fastest-growing industries.Consuming over 10 percent of gross domestic product (GDP) of most developed nations, health care can form an enormous part of a country's economy.</p>
+          <p class="lead">The delivery of healthcare services—from primary care to secondary and tertiary levels of care—is the most visible part of any healthcare system, both to users and the general public.There are many ways of providing healthcare in the modern world. The place of delivery may be in the home, the community, the workplace, or in health facilities. The most common way is face-to-face delivery, where care provider and patient see each other in person. This is what occurs in general medicine in most countries. However, with modern telecommunications technology, in absentia health care or Tele-Health is becoming more common. This could be when practitioner and patient communicate over the phone, video conferencing, the internet, email, text messages, or any other form of non-face-to-face communication. Practices like these are especial applicable to rural regions in developed nations. These services are typically implemented on a clinic-by-clinic basis.[</p>
+         
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
